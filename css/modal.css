@@ -16,7 +16,8 @@
 }
 
 .modal {
-  min-width: 400px;
+  width: 80vw;
+  max-width: 400px;
   background: white;
   padding: 40px;
   border: 10px solid #fb5;
@@ -47,11 +48,8 @@
   top: -30px;
   right: -30px;
   position: absolute;
-  background: #E54;
+  background: #E54 url(../img/fechar.svg) no-repeat center center;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
-  font-size: 1.2rem;
-  color: white;
-  font-family: "Fira Code", monospace;
   cursor: pointer;
 }
 
@@ -65,6 +63,8 @@
 .modal input {
   width: 100%;
   padding: .7rem .5rem;
+  font-size: 1rem;
+  color: #222;
 }
 
 .modal button[type="submit"] {
